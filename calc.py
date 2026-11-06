@@ -1,13 +1,9 @@
-"""Small calculator module with an intentional bug for the Acyclic swarm demo."""
-
-
 def add(a, b):
     return a + b
 
 
 def subtract(a, b):
-    # BUG: should be a - b
-    return b - a
+    return a - b
 
 
 def multiply(a, b):
